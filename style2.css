@@ -1,0 +1,404 @@
+body{
+    background-color: rgba(249, 245, 250, 1);
+}
+.header{
+    background-color: rgba(205, 55, 153, 0.06);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 16px;
+    height: 72px;
+    width: 85vw;
+    margin: 24px auto;
+    border-radius: 16px;
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.16);
+}
+.anchors{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    width: 221px;
+
+
+}
+.header a{
+    text-decoration: none;
+    color: rgba(66, 25, 52, 1);
+    font-family: Sen;
+    height: 24px;
+}
+.header h1{
+    font-family: Dela Gothic One;
+    color: rgba(66, 25, 52, 1);
+    height: 100%;
+    width: 100%;
+    font-size: 42px;
+    font-weight: 400;
+    margin-left: -30px
+
+}
+.h1{
+    height: 42px;
+    width: 380px;
+    display: flex;
+    align-items: center;
+
+}
+#i1{
+    width: 95vw;
+}
+.head2 {
+    color: rgba(66, 25, 52, 1);
+    font-weight: 400;
+    text-align: center;
+    font-size: 120px;
+    font-family: Dela Gothic One;
+    line-height: 120px;
+}
+#head4{
+    font-weight: 400;
+    font-family: Dela Gothic One;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    color: rgba(66, 25, 52, 1);
+    margin: 15vw;
+}
+#section1 {
+    display: grid;
+    gap: auto;
+}
+#i2{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+#i3{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+}
+#i4{
+    grid-row-start: 4;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 5;
+
+
+}
+img, .services, .yayy, .yayy1 {
+    padding: 25px;
+
+}
+#i5 {
+    grid-row-start: 7;
+      /*  */
+    grid-row: span 3;
+    grid-column-start: 1;
+    grid-column: span 2;
+}
+#i6 {
+    grid-row-start: 7;
+    grid-row-end: 10;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.serviceall{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    gap: auto;
+
+}
+.services{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    line-height: 32px;
+    font-weight: 400;
+    font-size: 28px;
+    font-family: Dela Gothic One;
+    color: rgba(66, 25, 52, 1);
+ 
+}
+.yayy{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: Sen;
+    font-weight: 400;
+    padding: 48px;
+    color: rgba(66, 25, 52, 1);
+
+}
+#section2 div div div{
+    text-align: left;
+    padding-left: 28px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+
+}
+.namee{
+    font-family: Sen;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(66, 25, 52, 1);
+
+}
+.proj1 {
+    font-family: Sen;
+    font-size: 17px;
+    line-height: 24px;
+    color: rgba(66, 25, 52, 0.62);
+
+}
+.say {
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    width: 100%;
+    font-family: Dela Gothic One;
+    color: rgba(66, 25, 52, 1);
+    margin-top: 100px;
+}
+#section2{
+    display: flex;
+    flex-direction: row;
+}
+#section2 div {
+    display: flex;
+    flex-direction: column;
+}
+#people{
+    /* box-sizing: content-box; */
+    display: flex;
+    flex-direction: row;
+    height: 216px;
+    gap: 24px;
+    width: 1344px;
+    margin: 80px 48px 200px 48px;
+    overflow: scroll;
+    justify-content: space-between;
+
+}
+#people img {
+    height: 48px;
+    width: 48px;
+    margin-top: -10px;
+}
+#people > div{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(222, 207, 217, 0.4);
+    padding: 24px;
+    height: auto;
+    width: 288px;
+    border-radius: 16px;
+    border: 1px solid rgba(34, 27, 32, 0.16);
+
+}
+.pe1{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+/* .line{
+    border: 1px solid rgba(34, 27, 32, 0.16)
+} */
+.pe1 p:first-child{
+    width: 180px;
+    height: 20px;
+    font-family: Sen;
+    color:rgba(66, 25, 52, 1);
+    font-weight: 700;
+    line-height: 20px;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.pe1 p:last-child {
+    width: 180px;
+    height: 20px;
+    font-family: Sen;
+    color:rgba(66, 25, 52, 0.62);
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 15px;
+    margin: 0;
+}
+.pe2 {
+    padding-bottom: 8px;
+    height: 240px;
+    width: 104px;
+    padding-left: 45px;
+    margin-left: 50px;
+    margin-right: 0;
+    margin-top: -20px;
+    width: 65%;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: Sen;
+    color: rgba(66, 25, 52, 1);
+    line-height: 24px;
+    border-left: 1px solid rgba(34, 27, 32, 0.16);
+
+
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 48px;
+}
+.foot1{
+    font-family: Dela Gothic One;
+    font-weight: 400;
+    height: 32px;
+    font-size: 32px;
+    color: rgba(66, 25, 52, 0.62);
+    
+}
+
+
+.contact1 {
+    border: 1px solid rgba(34, 27, 32, 0.16);
+    border-radius: 8px;
+    font-family: Sen;
+    padding: 12px 24px 12px 24px;
+}
+
+@media (max-width:600px) {
+    #section1 {
+        display:block;
+    }
+    #section2{
+        display:block;
+
+    }
+
+    #people {
+        display: block;
+    }
+    .head2 {
+        font-size: 38px;
+        line-height: 1;
+        margin: auto;
+        text-align: center;
+    }
+    #section1 img {
+        height: auto;
+        width: 85vw;
+        margin: auto;
+    }
+    #section2 img {
+        height: auto;
+        width: 85vw;
+        margin: auto;
+
+    }
+    #people div{
+        margin: 20px;
+        height: auto;
+    }
+    footer{
+        margin: 10px;
+    }
+    #head4{
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 10px;
+    }
+    #i1{
+        margin: auto;
+        height: auto;
+        width: 90vw;
+
+    }
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+        height: auto;
+    }
+    .header {
+        line-height: 2;
+    }
+
+
+    .pe1 p{
+        margin: 0px;
+    }
+    .services{
+        font-size: 20px;
+    }
+    .yay1, .yay2{
+        margin-top: -10px;
+    }
+    .yay1{
+        margin-left: -30px;
+    }
+    .anchors{
+        margin-bottom: 20px;
+    }
+    #yayy3 {
+        margin-top: 20px;
+    }
+    .header h1 {
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
